@@ -1,3 +1,4 @@
+require('dotenv').config(); // 加载 .env 文件
 const app = require('./app');
 const PORT = process.env.PORT || 3000;
 
